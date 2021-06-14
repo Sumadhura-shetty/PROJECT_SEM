@@ -64,7 +64,7 @@ form.sign-in-form {
   font-size: 2.2rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #444;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .input-field {
@@ -167,7 +167,7 @@ form.sign-in-form {
   height: 2000px;
   width: 2000px;
   top: -10%;
-  right: 78%;
+  right: 48%;
   transform: translateY(-50%);
   background-image: linear-gradient(-45deg, purple, purple);
   transition: 1.8s ease-in-out;
@@ -229,19 +229,19 @@ form.sign-in-form {
 
 .right-panel .image,
 .right-panel .content {
-  transform: translateX(800px);
+  transform: translateX(600px);
 }
 
 /* ANIMATION */
 
 .container.sign-up-mode:before {
   transform: translate(100%, -50%);
-  right: 72%;
+  right: 52%;
 }
 
 .container.sign-up-mode .left-panel .image,
 .container.sign-up-mode .left-panel .content {
-  transform: translateX(-800px);
+  transform: translateX(-600px);
 }
 
 .container.sign-up-mode .signin-signup {
@@ -260,7 +260,7 @@ form.sign-in-form {
 
 .container.sign-up-mode .right-panel .image,
 .container.sign-up-mode .right-panel .content {
-  transform: translateX(10%);
+  transform: translateX(0%);
 }
 
 .container.sign-up-mode .left-panel {
@@ -278,7 +278,7 @@ form.sign-in-form {
   }
   .signin-signup {
     width: 100%;
-    top: 95%;
+    top: 85%;
     transform: translate(-50%, -100%);
     transition: 1s 0.8s ease-in-out;
   }
@@ -360,7 +360,7 @@ form.sign-in-form {
 
   .container.sign-up-mode .right-panel .image,
   .container.sign-up-mode .right-panel .content {
-    transform: translateY(10px);
+    transform: translateY(0px);
   }
 
   .right-panel .image,
